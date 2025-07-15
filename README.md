@@ -49,15 +49,16 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
 
 ---
 
-## 🧑‍💻 Autor
-
-[Leonardo Macedo](https://github.com/leomacedo)  
-📍 Aracaju, SE – Brasil
-
----
-
 ## 📁 Registro de Partidas
 
 Ao final de cada sessão, o jogador pode optar por registrar a partida em um arquivo chamado `registro_partidas_.txt`, contendo:
 
 > Esse arquivo **é ignorado no Git** por estar listado no `.gitignore`, mantendo o repositório limpo.
+
+---
+
+## 🧑‍💻 Autor
+
+[Leonardo Macedo](https://github.com/leomacedo)  
+📍 Aracaju, SE – Brasil
+
