@@ -125,19 +125,19 @@ while True:
 
         # Exibe quem venceu a sessão
         if placar_jogador == placar_computador:
-            print("\nO jogo terminou empatado!")
+            print("\nO jogo terminou empatado! 🤝")
         elif placar_jogador > placar_computador:
-            print("\nParabéns! Você ganhou!")
+            print("\nParabéns! Você ganhou! 🎉")
         else:
-            print("\nVocê perdeu! Melhor sorte na próxima!")
+            print("\nVocê perdeu! Melhor sorte na próxima! 😓")
 
         # Pergunta se deseja salvar o resultado em arquivo
         salvar = input("\nDeseja salvar esta partida e atualizar o ranking? (s/n): ").lower()
         if salvar == "s":
             registrar_partida_xlsx(nome_jogador, placar_jogador, placar_computador)
-            print("✅ Partida e ranking atualizados com sucesso!")
+            print("✅ Partida e ranking atualizados com sucesso! 📝")
         else:
-            print("📁 Registro não salvo.")
+            print("📁 Registro não salvo. ⚠️")
         break # Sai do loop principal
 
     # Computador faz uma jogada aleatória
