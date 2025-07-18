@@ -49,11 +49,14 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
 
 ---
 
-## 📁 Registro de Partidas
+## 📊 Registro avançado em Excel
+O jogo permite que o jogador salve os dados da sessão em um arquivo `.xlsx` com duas abas separadas, usando a biblioteca `openpyxl`:
 
-Ao final de cada sessão, o jogador pode optar por registrar a partida em um arquivo chamado `registro_partidas_.txt`, contendo:
+Aba **"RegistroPartidas"**: histórico com data, nome do jogador e placar da sessão.
 
-> Esse arquivo **é ignorado no Git** por estar listado no `.gitignore`, mantendo o repositório limpo.
+Aba **"RankingJogadores"**: acumulado de vitórias, derrotas e empates por jogador.
+
+> O arquivo `registro_completo.xlsx` é gerado apenas com permissão do jogador e está incluído no `.gitignore` para manter o repositório limpo.
 
 ---
 
