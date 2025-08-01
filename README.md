@@ -38,7 +38,7 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
    ```
 2. Navegue até a pasta do projeto:
    ```bash
-   cd desafios-python/PedraPapelTesoura
+   cd jogo-pedra-papel-tesoura
    ```
 3. Execute o script no terminal:
    ```bash
