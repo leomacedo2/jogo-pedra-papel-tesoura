@@ -34,7 +34,7 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
 
 1. Clone o repositório ou baixe o arquivo:
    ```bash
-   git clone https://github.com/leomacedo/desafios-python.git
+   git clone https://github.com/leomacedo2/jogo-pedra-papel-tesoura
    ```
 2. Navegue até a pasta do projeto:
    ```bash
